@@ -10,8 +10,7 @@ import java.util.Set;
 public class ChangeMakerImpl_Flores implements ChangeMaker
 {	
 	private Set<Integer> denominations;
-	//part of pre: i <= 0 ==> !denominations.contains(i)
-	//Student should figure out other parts of the precondition
+
 	public ChangeMakerImpl_Flores(Set<Integer> denominations)
 	{
 		assert denominations != null; assert !denominations.contains(null);

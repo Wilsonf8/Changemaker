@@ -3,7 +3,6 @@ package test;
 import static java.lang.annotation.ElementType.METHOD;
 import static java.lang.annotation.RetentionPolicy.RUNTIME;
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.fail;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.Target;
